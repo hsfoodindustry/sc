@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Futuristic Showcase - Contact</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="logo"><strong>Showcase</strong></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="tracking.html">Tracking</a></li>
+    </ul>
+</nav>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>You can reach us directly via WhatsApp or using the form below:</p>
+    <form onsubmit="contactSubmit(event)">
+        <input type="text" id="contactName" placeholder="Your Name" required>
+        <input type="email" id="contactEmail" placeholder="Your Email" required>
+        <textarea id="contactMessage" placeholder="Your Message" rows="4" required></textarea>
+        <input type="submit" value="Send via WhatsApp">
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Futuristic Showcase. All rights reserved.
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

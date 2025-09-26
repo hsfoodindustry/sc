@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Futuristic Showcase - Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="logo"><strong>Showcase</strong></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="tracking.html">Tracking</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <h1>Welcome to Futuristic Showcase</h1>
+    <p>Explore our products and order via WhatsApp instantly</p>
+    <a href="products.html"><button>Browse Products</button></a>
+</section>
+
+<!-- Featured Products -->
+<section class="section">
+    <h2>Featured Products</h2>
+    <div class="products" id="products"></div>
+</section>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 Futuristic Showcase. All rights reserved.
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+    // Load only featured products on home page (first 3 products)
+    loadProducts(productsData.slice(0,3));
+</script>
+
+</body>
+</html>
